@@ -554,8 +554,12 @@ public class main extends javax.swing.JFrame {
                 //agregar cada registro al modelo de la tabla
                  modelo.addRow(row);
                 //cargar jcombox
-                cbpeliculas.addItem(new Pelicula(Integer.parseInt(row[0].toString()),row[1].toString(),row[2].toString(),
-                        Integer.parseInt(row[3].toString()),row[4].toString(),row[5].toString()));
+                cbpeliculas.addItem(new Pelicula(Integer.parseInt(row[0].toString())
+                        ,row[1].toString()
+                        ,row[2].toString(),
+                        Integer.parseInt(row[3].toString())
+                        ,row[4].toString()
+                        ,row[5].toString()));
                 cbpeliculas1.addItem(new Pelicula(Integer.parseInt(row[0].toString()),row[1].toString(),row[2].toString(),
                         Integer.parseInt(row[3].toString()),row[4].toString(),row[5].toString()));
                  
